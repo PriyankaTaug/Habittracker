@@ -1,0 +1,22 @@
+.div_reg
+{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.reg_button
+{
+    padding: 10px 20px;
+    font-size:16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #5AA897;
+    color: #fff;
+    width: 60%;
+}
