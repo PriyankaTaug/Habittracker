@@ -1,9 +1,17 @@
 import React from 'react'
 import habitLogo from '../assets/habitlogo.png'
+import {  useNavigate } from 'react-router-dom';
 import './Habit.css'
 import '../index.css'
 
+
 const Habit = () => {
+const navigate = useNavigate();
+
+const handleNavigate = () =>
+{
+  navigate('/register')
+}
   return (
     <div style={{
       height: '100vh',
@@ -24,7 +32,7 @@ const Habit = () => {
         }}
         className="logo"
       />
-      <button style={{
+      <button onClick={handleNavigate} style={{
         padding: '10px 20px',
         fontSize: '16px',
         borderRadius: '8px',
