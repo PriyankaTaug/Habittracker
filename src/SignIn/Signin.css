@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.signin_head
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fffdf8;
+    border-radius: 20px;
+    max-width: 350px;
+    margin: 100px auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    animation: slideFade 0.6s ease;
+}
+.click_check
+{
+    cursor: pointer;
+}
+.sigin_text
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: #4F9A94;
+    text-align: center;
+}
